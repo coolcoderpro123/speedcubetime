@@ -93,9 +93,9 @@ h1 {
 			00</span>
 		</div>
 		<div id="buttons">
-			<button class="btn" id="start" onclick="time()">
+			<button class="btn" id="start">
 			Start</button>
-			<button class="btn" id="stop">
+			<button class="btn" id="stop"  onclick="time()">
 			Stop</button>
 			<button class="btn" id="reset">
 			Reset</button>
@@ -184,7 +184,7 @@ function stopWatch() {
 }
 	  function time(){
 	  // Gets user input
-var name = prompt("Enter your time to save it");
+var name = prompt("Enter your time to save it. If you don't want to save it, click cancel.");
 
 
 // Uses user input to print out information
