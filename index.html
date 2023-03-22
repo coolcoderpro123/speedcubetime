@@ -93,7 +93,7 @@ h1 {
 			00</span>
 		</div>
 		<div id="buttons">
-			<button class="btn" id="start">
+			<button class="btn" id="start" onclick="time()">
 			Start</button>
 			<button class="btn" id="stop">
 			Stop</button>
@@ -182,6 +182,16 @@ function stopWatch() {
 		setTimeout(stopWatch, 10);
 	}
 }
+	  function time(){
+	  // Gets user input
+var name = prompt("Enter your time to save it");
+
+
+// Uses user input to print out information
+println(name);
+
+	  }
+
 </script>
 </body>
 
